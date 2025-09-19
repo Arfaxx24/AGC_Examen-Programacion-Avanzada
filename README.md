@@ -39,15 +39,17 @@ Instrucciones para el funcionamiento del Programa  <br>
         <br>
         <ul>
             Para habilitar el "Entorno virtual" en Windows deberemos de habilitar la edicion de windows con el siguiente comando:  <br>
-            <br>
-            <li>
-                Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser  <br>
-            </li>
-            Despues de habilitar la edicion de windows debera activar el entorno:  <br>
-            <li>
-                Para Windows: venv\Scripts\activate  <br>
-                Para Linux: source venv/bin/activate  <br>
-            </li>
+            <ul>
+                <br>
+                <li>
+                    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser  <br>
+                </li>
+                Despues de habilitar la edicion de windows debera activar el entorno:  <br>
+                <li>
+                    Para Windows: venv\Scripts\activate  <br>
+                    Para Linux: source venv/bin/activate  <br>
+                </li>
+            </ul>
         </ul>
         <br>
         4.Una vez habilitado el "Entorno virtual" debera instalar las dependencias requeridas, estas dependencias deberan estar instaladas en la carpeta "/AM_AGC_Examen_programacion", para ello se ocupa el siguiente comando:  <br>
