@@ -34,21 +34,21 @@ Instrucciones para el funcionamiento del Programa  <br>
         3. Antes de continuar vamor a activar (en caso de que no lo tenga) el "Entorno virtual", eso al menos para este ejemplo, deberemos de activarlo dentro de la carpeta de "7AM_AGC_Examen_programación_avanzada" y deberemos de poner los siguientes codigo  <br>
         <ul>
             Para habilitar el "Entorno virtual" en Windows deberemos de habilitar la edicion de windows con el siguiente comando:  <br>
-            <il>
+            <li>
                 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser  <br>
-            </il>
+            <<li>
             Despues de habilitar la edicion de windows debera activar el entorno:  <br>
-            <il>
+            <li>
                 Para Windows: venv\Scripts\activate  <br>
                 Para Linux: source venv/bin/activate  <br>
-            </il>
+            <<li>
         </ul>
         4.Despues de haber habilitado el "Entorno virtual" debera localizarse en la direccion de la carpeta "src\_pycache_\" para localizarse en las carpetas debera usar el comando:  <br>
-        <il>
+        <li>
             cd "direccion de cada carpeta"  <br>
-        </il>
+        </li>
         5.Una vez localizados en la carpeta "_pycache_\" debera ejecutar el programa de "Menufiguras.py", la forma de ejecutarlo es con el siguiente comando:  <br>
-        <il>
+        <li>
             python "Direccion del archivo MenuFiguras.py"  <br>
-        </il>
+        </li>
         6.Estas listo para ejecutar el programa, disfrutalo  <br>
