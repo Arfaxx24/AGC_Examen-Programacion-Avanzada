@@ -54,9 +54,9 @@ Instrucciones para el funcionamiento del Programa  <br>
         <br>
         4.Una vez habilitado el "Entorno virtual" debera instalar las dependencias requeridas, estas dependencias deberan estar instaladas en la carpeta "/AM_AGC_Examen_programacion", para ello se ocupa el siguiente comando:  <br>
         <br>
-        <ul>
+        <li>
             pip install bleassed  <br>
-        </ul>
+        </li>
         <br>
         4.Despues de haber instalado las dependencias debera localizarse en la direccion de la carpeta "src\_pycache_\" para localizarse en las carpetas debera usar el comando:  <br>
         <br>
