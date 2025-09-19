@@ -1,0 +1,51 @@
+1. ¿Qué es un clase y que elementos las constituyen?
+    Las clases son tipos de estructuras que pueden ser modelos o plantillas en la programacion orientada a objetos
+    (POO) que definen un tipo de objeto y sus caracteristicas son :
+        a. Atributos: son variables que se definen dentro de la clase para describir el objeto
+        b. Métodos: son funciones que se utilizan para describir el comportamiento del objeto
+        c. Construtor(__init__): es la forma con las que se inician objetos al crearlos
+        d. Herencia: es la capacidad de atribuir sus caracteristicas a otra clase
+        e. Encapsulamiento: conjunto de operaciones que actuan sobre los datos dentro de la clase
+        f. Polimorfismo: es la capacidad de un objeto de actuar de diferentes formas, esto dependiendo del objeto que lo ejetute
+    
+2. ¿Cuál es el resultado en la pantalla? si se tienen el siguiente código en python.
+    Código ejemplo
+    "frutas[1:3]:  ['peras', 'manzanas']
+        frutas[:]:  ['piñas', 'peras', 'manzanas', 'platanos', 'naranjas']
+        frutas[-1]:  naranjas"
+
+    Respuesta
+    a1. frutas[1:3]:  ['peras', 'manzanas']
+    b1. frutas[:]:  ['piñas', 'peras', 'manzanas', 'platanos', 'naranjas']
+    c1. frutas[-1]:  naranjas
+
+    a2. Para la forma [1:3] lo unico que va a hacer es imprimir de la 
+        lista el objeto que se encuentra en la posición 1 y termina de imprimir en el 3er dato, en este caso: Peras y manzanas
+    b2. Para la forma [:] lo que va a imprimir son todos los elementos de la lista
+    c2. Para el caso de [-1] imprime el dato que se encuentra un lugar antes del primer dato de la lista,
+        en este caso "naranjas"
+
+3. ¿Cual es la diferencia entre una lista y un diccionario en python?
+    Los listados son un conjuntos de elementos ordenados y pueden ser de cualquier tipo, numeros, nombres, objetos, etc.
+    los diccionarios son pares de clave-valor donde a un objeto "clave" le asignamos un valor "x" el cual 
+    si imprimimos la clave nos va a dar el valor asignado
+
+4. En el siguiente código, escribe la instrucción necesaria para cambiar el campo nombre del objeto persona a 'pedro'
+    Código ejemplo
+    "persona = {'nombre': 'juan',
+            'edad':'23',
+            'genero': 'Masculino',
+            'trabaja': True,
+            'ocupacion': 'Estudiante'}"
+
+    Respuesta
+    En el codigo se está manejando un diccionario con diferentes claves
+    las cuales queremos modificar el valor de la clave "nombre" al valor pedro
+    (podriamos simplemente cambiar el valor en el diccionario de juan a pedro,
+    pero no es la solucion que pide).
+    Para modificar el valor de dicha clave podemos ejecutar el diccionario y asignarle un nuevo valor
+    a la clave nombre con el siguiente comando:
+
+        persona['nombre'] = 'pedro'
+
+    y despues imprimir el diccionario con "print('persona: ', persona)"
