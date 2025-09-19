@@ -2,7 +2,7 @@
 # Estudiante: Arfaxad Garcia Cardozo
 # Profesor: Sigfrido Oscar Soria Frias
 
-Instrucciones para el funcionamiento del Programa \n
+Instrucciones para el funcionamiento del Programa \\n
     1. Descargar el programa subido a la plataforma de Github
         Pasos necesarios para descargar el programa son los siguientes:
             a. Para poder descargar el archivo de "Github" debe tener la aplicacion de "Git Bash" instalada en su computador
